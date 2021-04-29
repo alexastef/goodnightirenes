@@ -1,47 +1,56 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../../images/GNI_logo_final_vert.png';
+import './style.css';
 
 const Header = () => {
+  const [click, setClicked] = useState(false);
+  const handleClick = () => setClicked(!click);
+  const closeMobileMenu = () => setClicked(false);
+
+  console.log(click)
   return (
     <header>
-      <nav>
+       <Link 
+        to="/"
+        className="nav-logo"
+        >
+          <img src={Logo} className="nav-brand" onClick={closeMobileMenu}/>
+        </Link>
+
+      <nav className={ click ? "nav-active" : ""}>
         <Link 
         to="menu"
         className="nav-link"
-        activeClass="active"
+        onClick={closeMobileMenu}
         >
           MENU
         </Link>
         <Link
         to="beer"
         className="nav-link"
-        activeClass="active"
+        onClick={closeMobileMenu}
         >
           BEER
         </Link>
         <Link 
-        to="/"
-        className="nav-link nav-logo"
-        activeClass="active"
-        >
-          <img src={Logo} className="nav-brand" />
-        </Link>
-        <Link 
         to="about"
         className="nav-link"
-        activeClass="active"
+        onClick={closeMobileMenu}
         >
           ABOUT
         </Link>
         <Link 
         to="contact"
         className="nav-link"
-        activeClass="active"
+        onClick={closeMobileMenu}
         >
           CONTACT
         </Link>
       </nav>
+      <div className="mobile-nav" onClick={handleClick}>
+        {click ? ( <i className="fas fa-times fa-4x nav-icon"></i> ) : ( <i className="fas fa-bars fa-4x nav-icon"></i> )}
+      </div>
     </header>
   )
 }

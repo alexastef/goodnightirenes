@@ -7,10 +7,16 @@ function App() {
   return (
     <div className="grid-container">
       <Router>
+        {/* <div className="hero-image"></div> */}
         <Header />
-        <Route path="/" component={Home} />
 
-
+        <main>
+          <div className="content">
+            <div className="main">
+              <Route path="/" component={Home} />
+            </div>
+          </div>
+        </main>
       </Router>
     </div>
   );
