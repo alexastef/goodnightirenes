@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../../images/GNI_logo_final_vert.png';
+import Fade from 'react-reveal';
 import './style.css';
 
 const Header = () => {
@@ -17,7 +18,8 @@ const Header = () => {
         >
           <img src={Logo} className="nav-brand" onClick={closeMobileMenu}/>
         </Link>
-
+        
+      <Fade>
       <nav className={ click ? "nav-active" : ""}>
         <Link 
         to="menu"
@@ -48,10 +50,12 @@ const Header = () => {
           CONTACT
         </Link>
       </nav>
+      </Fade>
       <div className="mobile-nav" onClick={handleClick}>
         {click ? ( <i className="fas fa-times fa-4x nav-icon"></i> ) : ( <i className="fas fa-bars fa-4x nav-icon"></i> )}
       </div>
     </header>
+
   )
 }
 
