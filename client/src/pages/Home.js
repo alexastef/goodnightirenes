@@ -18,7 +18,7 @@ const Home = () => {
           <Fade right>
             <div className="intro-text text-right">
               <h1 className="intro-text--heading">Good Eats</h1>
-              <p className="intro-text--body">Some blurb about the food. Maybe three sentences. Photo of the pizza.</p>
+              <p className="intro-text--body">We serve up specialty brick oven pizzas and classic favorites with a creative twist. Be sure to check out our daily specials!</p>
               <a className="intro-text--link">View Menu</a>
             </div>
           </Fade>
@@ -27,7 +27,7 @@ const Home = () => {
           <Fade left>
             <div className="intro-text text-left">
               <h1 className="intro-text--heading">Good Drinks</h1>
-              <p className="intro-text--body">Some blurb about the beer and drinks. Maybe three sentences. Photo of a beer. Include info about happy hour?</p>
+              <p className="intro-text--body">We have the largest selection of craft beer you'll find on the island, with 46 beers on tap. Not a beer drinker? We also serve craft cocktails and wine</p>
               <a className="intro-text--link">View Drinks</a>
             </div>
           </Fade>
@@ -38,7 +38,7 @@ const Home = () => {
           <Fade right>
             <div className="intro-text text-right">
               <h1 className="intro-text--heading">Good Times</h1>
-              <p className="intro-text--body">Some blurb about the specials and events. Maybe three sentences. Photo of something, doesn't matter. Link this to the instagram</p>
+              <p className="intro-text--body">Stop by for Happy Hour every day from 4-7 and live music Thursday through Sunday. Dogs and kids welcome!</p>
               <a className="intro-text--link">Learn More</a>
             </div>
           </Fade>

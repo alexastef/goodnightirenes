@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../../images/GNI_logo_final_vert.png';
+import Logo from '../../images/GNI_logo_final_vert_rev_new.png';
 import Fade from 'react-reveal';
 import './style.css';
 
@@ -16,7 +16,7 @@ const Header = () => {
         to="/"
         className="nav-logo"
         >
-          <img src={Logo} className="nav-brand" onClick={closeMobileMenu}/>
+          <img src={Logo} alt="Goodnight Irene's Logo" className="nav-brand" onClick={closeMobileMenu}/>
         </Link>
         
       <Fade>
