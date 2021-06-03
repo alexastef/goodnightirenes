@@ -19,7 +19,7 @@ const Home = () => {
             <div className="intro-text text-right">
               <h1 className="intro-text--heading">Good Eats</h1>
               <p className="intro-text--body">We serve up specialty brick oven pizzas and classic favorites with a creative twist. Be sure to check out our daily specials!</p>
-              <a className="intro-text--link">View Menu</a>
+              <a className="intro-text--link" href="/menu">View Menu</a>
             </div>
           </Fade>
         </section>
@@ -28,7 +28,7 @@ const Home = () => {
             <div className="intro-text text-left">
               <h1 className="intro-text--heading">Good Drinks</h1>
               <p className="intro-text--body">We have the largest selection of craft beer you'll find on the island, with 46 beers on tap. Not a beer drinker? We also serve craft cocktails and wine</p>
-              <a className="intro-text--link">View Drinks</a>
+              <a className="intro-text--link" href="/beer">View Drinks</a>
             </div>
           </Fade>
           <div className="intro-image image-right" id="intro-image--good-drinks"></div>
@@ -38,8 +38,8 @@ const Home = () => {
           <Fade right>
             <div className="intro-text text-right">
               <h1 className="intro-text--heading">Good Times</h1>
-              <p className="intro-text--body">Stop by for Happy Hour every day from 4-7 and live music Thursday through Sunday. Dogs and kids welcome!</p>
-              <a className="intro-text--link">Learn More</a>
+              <p className="intro-text--body">Stop by for Happy Hour every day from 4-7, live music Thursday through Sunday. Dogs and kids welcome!</p>
+              <a className="intro-text--link" href="https://www.instagram.com/explore/tags/gniweekends/">Learn More</a>
             </div>
           </Fade>
         </section>
