@@ -1,6 +1,7 @@
 import React from 'react';
 import Fade from 'react-reveal';
 import Bounce from 'react-reveal';
+import './style.css';
 
 const Home = () => {
   return (

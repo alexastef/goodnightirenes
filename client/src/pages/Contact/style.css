@@ -1,0 +1,64 @@
+div.contact {
+  /* background-color: teal; */
+  width: 90%;
+  margin: auto;
+  margin-top: 0.94rem;
+  height: 65vh;
+  display: flex;
+  align-items: center;
+}
+
+div.contact--info {
+  width: 50%;
+  padding: 1.5rem;
+}
+
+h2.contact--info-heading {
+  font-family: var(--main-header);
+  letter-spacing: var(--header-letter-spacing);
+  font-size: x-large;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+}
+
+h4.contact--info-subheading {
+  font-size: larger;
+  letter-spacing: var(--header-letter-spacing);
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+}
+
+hr {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact--info-inquiries {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact--info-group {
+  display: flex;
+  align-items: center;
+}
+
+img.contact--info-image {
+  width: 1.5rem;
+  height: auto;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+div.contact--map {
+  width: 50%;
+  height: 100%;
+  justify-items: center;
+}
+
+iframe {
+  margin-top: 10%;
+  width: 100%;
+  height: 80%;
+  border: 0;
+}
