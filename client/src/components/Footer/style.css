@@ -1,7 +1,8 @@
 footer {
-  margin-top: 1.75rem;
+  /* margin-top: 1.75rem; */
   background-color: var(--gold);
   height: 100%;
+  margin-bottom: 0;
 }
 
 .footer-content {
@@ -66,8 +67,12 @@ p.footer-p {
 
 .footer-credits {
   text-align: center;
+  font-size: smaller;
 }
 
+.footer-credits > p {
+  margin-top: 4px;
+}
 @media (max-width: 525px) {
   .footer-content {
     grid-template-columns: repeat(1, 2fr);

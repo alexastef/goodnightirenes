@@ -17,9 +17,11 @@ const Contact = () => {
         <section className="contact--info-inquiries">
           <h2 className="contact--info-heading">Reservations, questions, or feedback? We'd love to hear from you!</h2>
           <div className="contact--info-group">
-            <h4 className="contact--info-subheading">cheers@goodnight-irenes.com</h4>
             <img src={Favicon} alt="hops-favicon" className="contact--info-image"/>
-            <h4 className="contact--info-subheading">609.729.3861</h4>
+            <h4 className="contact--info-subheading">cheers@goodnight-irenes.com</h4>
+          </div><div className="contact--info-group">
+            <img src={Favicon} alt="hops-favicon" className="contact--info-image"/>
+            <h4 className="contact--info-subheading"><a href="tel:+1-609-729-3861" className="contact--info-phone">609.729.3861</a></h4>
           </div>
         </section>
       </div>
