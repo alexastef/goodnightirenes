@@ -1,13 +1,9 @@
-/* .footer-content {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-} */
 footer {
   margin-top: 1.75rem;
   background-color: var(--gold);
   height: 100%;
 }
+
 .footer-content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -27,42 +23,43 @@ section.footer-content--section {
 .order-phone {
   text-decoration: none;
   color: var(--white);
-  font-size: 1.25rem;
+  font-size: 1.23vw;
   padding-left: 0.5rem;
 }
 
 .order-phone:hover {
   color: var(--green);
-  font-size: 1.5rem;
+  font-size: 1.4vw;
 }
 
 section.footer-content--section > h3 {
   font-family: var(--main-header);
   letter-spacing: var(--header-letter-spacing);
-  font-size: 1.5rem;
+  font-size: 1.4vw;
+  font-style: italic;
 }
 
 .footer-content--connect > a {
   margin-right: 1rem;
-  font-size: 2rem;
+  font-size: 1.4vw;
   color: var(--white);
 }
 
 .footer-content--connect > a:hover {
-  font-size: 2.25rem;
+  font-size: 1.5vw;
   color: var(--green);
 }
 
 .footer-order--hours > h6,
 .footer-content--contact > h6 {
-  font-size: 1.25rem;
+  font-size: 1.3vw;
   margin-top: 0;
   margin-bottom: 0;
   letter-spacing: 1.2px;
 }
 
 p.footer-p {
-  font-size: 1.25rem;
+  font-size: 1.4vw;
   margin-top: .25rem;
   margin-bottom: .25rem;
 }
@@ -71,7 +68,7 @@ p.footer-p {
   text-align: center;
 }
 
-@media (max-width: 825px) {
+@media (max-width: 525px) {
   .footer-content {
     grid-template-columns: repeat(1, 2fr);
     padding: 0;
@@ -83,19 +80,22 @@ p.footer-p {
   }
 
   section.footer-content--section > h3 {
-    font-size: 1.05rem;
+    font-size: 4vw;
   }
 
-  p.footer-p {
-    font-size: 1rem;
+  p.footer-p,
+  a.order-phone {
+    font-size: 4vw;
   }
   .footer-order--hours > h6,
   .footer-content--contact > h6 {
-    font-size: 1rem;
+    font-size: 3.5vw;
   }
 
   a.social-link {
-    font-size: 1.5rem;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
   }
 
   #hours-section {

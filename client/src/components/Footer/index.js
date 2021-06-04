@@ -17,7 +17,7 @@ const Footer = () => {
       <section className="footer-content--section" id="order-section">
           <h3>Order</h3>
           <div className="footer-order--order">
-            <span><i class="fas fa-phone-alt"></i><a href="tel:+1-609-729-3861" className="order-phone">609.729.3861</a></span>
+            <span><i class="fas fa-phone-alt fa-xs"></i><a href="tel:+1-609-729-3861" className="order-phone">609.729.3861</a></span>
           </div>
         </section>
         <section className="footer-content--section" id="connect-section">
