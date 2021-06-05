@@ -15,16 +15,16 @@ div.contact--info {
 h2.contact--info-heading {
   font-family: var(--main-header);
   letter-spacing: var(--header-letter-spacing);
-  font-size: x-large;
+  font-size: larger;
   margin-bottom: 1rem;
   margin-top: 1.5rem;
 }
 
 h4.contact--info-subheading {
   font-size: larger;
-  letter-spacing: var(--header-letter-spacing);
   margin-bottom: 0.5rem;
   margin-top: 0;
+  font-weight: 500;
 }
 
 hr {
@@ -53,6 +53,12 @@ a.contact--info-phone {
   color: var(--black);
 }
 
+a.contact--info-phone:hover {
+  color: var(--brick);
+  /* font-size: larger; */
+  font-weight: 700;
+}
+
 div.contact--map {
   width: 50%;
   height: 100%;
@@ -74,15 +80,9 @@ iframe {
   h4.contact--info-subheading {
     font-size: medium;
   }
-  /* .contact--info-group {
-    display: block;
-  } */
-  /* img.contact--info-image {
-    display: none;
-  } */
 }
 
-@media (max-width: 415px) {
+@media (max-width: 480px) {
   div.contact {
     flex-direction: column;
     height: auto;
