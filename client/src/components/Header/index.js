@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import MenuPDF from '../../pages/MenuPDF/menu.pdf';
 import Logo from '../../images/GNI_logo_final_vert_rev_new.png';
 import Fade from 'react-reveal';
 import './style.css';
@@ -9,7 +10,6 @@ const Header = () => {
   const handleClick = () => setClicked(!click);
   const closeMobileMenu = () => setClicked(false);
 
-  console.log(click)
   return (
     <header>
        <Link 
@@ -22,7 +22,8 @@ const Header = () => {
       <Fade>
       <nav className={ click ? "nav-active" : ""}>
         <Link 
-        to="menu"
+        to={MenuPDF}
+        target="_blank"
         className="nav-link"
         onClick={closeMobileMenu}
         >
