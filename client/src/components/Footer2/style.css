@@ -1,0 +1,122 @@
+footer {
+  /* margin-top: 1.75rem; */
+  background-color: var(--gold);
+  height: auto;
+  /* display: flex;
+  flex-direction: column; */
+  margin-bottom: 0;
+}
+
+.footer-content {
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr); */
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 0;
+  /* height: 100%; */
+  height: auto;
+  width: 100%;
+  background-color: var(--gold);
+  padding-left: 5%;
+  padding-right: 5%;
+  color: var(--white);
+  font-weight: var(--body-light);
+}
+
+span.footer-content--column {
+  /* grid-row: 1; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+a.order-phone {
+  color: var(--white);
+}
+
+.order-phone:hover {
+  color: var(--green);
+  font-size: 1.4vw;
+}
+
+h4.footer-content--text {
+  margin: 0;
+  font-weight: var(--body-light);
+  font-size: larger;
+}
+
+h4.footer-content--text > i {
+  margin-right: 0.5rem;
+}
+
+/* span#footer-content--social {
+  justify-content: flex-end;
+} */
+
+a.social-link {
+  margin-left: 1rem;
+  color: var(--white);
+}
+
+a.social-link:hover {
+  color: var(--green);
+  font-size: 1.4vw;
+}
+
+.footer-credits {
+  width: 100%;
+  text-align: center;
+  background-color: var(--gold);
+}
+
+.footer-credits--text {
+  margin-top: -2px;
+  margin-bottom: 0;
+  color: var(--white);
+}
+
+@media (max-width: 820px) {
+  .footer-content {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 8px;
+  }
+  span.footer-content--column {
+    flex-basis: calc(50% - 12px);
+    width: 50%;
+  }
+  a.social-link {
+    margin-left: 0;
+    margin-right: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-content {
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+  }
+  h4.footer-content--text {
+    /* width: 100%; */
+    /* font-size: medium; */
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  span.footer-content--column {
+    display: unset;
+    width: 100%;
+    text-align: center;
+  }
+  a.social-link {
+    margin-top: 5px;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    margin-bottom: 0.75rem;
+  }
+}
+

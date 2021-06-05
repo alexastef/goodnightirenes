@@ -1,8 +1,7 @@
 import React from 'react';
 import './style.css';
 import Favicon from '../../images/GNI_favicon2.png';
-// import Fade from 'react-reveal';
-// import Bounce from 'react-reveal';
+import Fade from 'react-reveal';
 
 const Contact = () => {
   return (
@@ -10,19 +9,26 @@ const Contact = () => {
       <div className="contact--info">
         <section className="contact--info-hours">
           <h2 className="contact--info-heading">Hours</h2>
-          <h4 className="contact--info-subheading">Monday - Thursday: 1pm - 3am</h4>
-          <h4 className="contact--info-subheading">Friday - Sunday: 11am - 3am</h4>
+          <Fade right cascade>
+            <h4 className="contact--info-subheading">Monday - Thursday: 1pm - 3am</h4>
+            <h4 className="contact--info-subheading">Friday - Sunday: 11am - 3am</h4>
+          </Fade>
         </section>
         <hr />
         <section className="contact--info-inquiries">
-          <h2 className="contact--info-heading">Reservations, questions, or feedback? We'd love to hear from you!</h2>
-          <div className="contact--info-group">
-            <img src={Favicon} alt="hops-favicon" className="contact--info-image"/>
-            <h4 className="contact--info-subheading">cheers@goodnight-irenes.com</h4>
-          </div><div className="contact--info-group">
-            <img src={Favicon} alt="hops-favicon" className="contact--info-image"/>
-            <h4 className="contact--info-subheading"><a href="tel:+1-609-729-3861" className="contact--info-phone">609.729.3861</a></h4>
-          </div>
+          <h2 className="contact--info-heading">Take out, reservations, questions, or feedback? We'd love to hear from you!</h2>
+            <div className="contact--info-group">
+              <Fade right cascade>
+                <img src={Favicon} alt="hops-favicon" className="contact--info-image"/>
+                <h4 className="contact--info-subheading">cheers@goodnight-irenes.com</h4>
+              </Fade>
+            </div>
+            <div className="contact--info-group">
+              <Fade right cascade>
+                <img src={Favicon} alt="hops-favicon" className="contact--info-image"/>
+                <h4 className="contact--info-subheading"><a href="tel:+1-609-729-3861" className="contact--info-phone">609.729.3861</a></h4>
+              </Fade>
+            </div>
         </section>
       </div>
       <div className="contact--map">

@@ -27,6 +27,8 @@ body {
   margin: 0;
   background-color: var(--white);
   font-family: var(--body);
+  font-weight: var(--body-light);
+  letter-spacing: var(--body-letter-spacing);
 }
 
 .grid-container {
