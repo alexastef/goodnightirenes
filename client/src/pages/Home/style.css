@@ -121,7 +121,10 @@ div.intro-text.text-left {
 @media (max-width: 600px) {
   div.intro-headline {
     max-width: 90%;
-    font-size: 5vw;
+    font-size: 7vw;
+    padding: 0;
+    padding-top: 0.75rem;
+    margin-bottom: 1.5rem;
   }
   section.intro-sections {
     flex-direction: row;
@@ -134,12 +137,13 @@ div.intro-text.text-left {
   }
   div.intro-text {
     padding: 1rem;
+    font-size: larger;
   }
   div.intro-text.text-right {
-    grid-column: 5 / -1;
+    grid-column: 3 / -1;
   }
   div.intro-text.text-left {
-    grid-column: 1 / span 8;
+    grid-column: 1 / span 10;
   }
   .intro-text--link {
     width: 60%;
