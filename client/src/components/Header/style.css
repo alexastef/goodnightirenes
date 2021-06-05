@@ -14,7 +14,7 @@ header {
 
 .nav-logo {
   margin: 2% 0 0 4.8%;
-  max-width: 15%;
+  max-width: 18%;
 }
 
 
@@ -40,7 +40,8 @@ nav {
   color: var(--gold);
   text-decoration: none;
   padding-top: 1rem;
-  text-align: center;
+  /* text-align: center; */
+  text-align: right;
   z-index: 50000;
   margin-top: .28rem;
 }
@@ -48,6 +49,10 @@ nav {
 .nav-link:hover {
   color: var(--green);
   font-weight: 800;
+}
+
+.nav-active {
+  color: var(--brick);
 }
 
 .mobile-nav {

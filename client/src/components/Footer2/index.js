@@ -15,8 +15,8 @@ const Footer2 = () => {
           <h4 className="footer-content--text"><i class="fas fa-map-marker-alt fa-sm"></i>2708 Pacific Avenue, Wildwood, NJ 08260</h4>
         </span>
         <span className="footer-content--column" id="footer-content--social">
-          <a href="https://www.facebook.com/Goodnightirenes" className="social-link" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
-          <a href="https://www.instagram.com/goodnightirenes/" className="social-link" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+          <a href="https://www.facebook.com/Goodnightirenes" className="social-link" target="_blank" rel="noreferrer"><i class="fab fa-facebook-square fa-2x"></i></a>
+          <a href="https://www.instagram.com/goodnightirenes/" className="social-link" target="_blank" rel="noreferrer"><i class="fab fa-instagram fa-2x"></i></a>
         </span>
       </div>
       <div className="footer-credits">

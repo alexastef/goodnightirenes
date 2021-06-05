@@ -32,7 +32,7 @@ const Contact = () => {
         </section>
       </div>
       <div className="contact--map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3100.980645726146!2d-74.81210274886242!3d38.99293807945567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c0a83c9e3ab831%3A0xa1a205900a8edc65!2sGoodnight%20Irene&#39;s%20Brew%20Pub!5e0!3m2!1sen!2sus!4v1622767411405!5m2!1sen!2sus" allowfullscreen="" loading="lazy" zoom="3"></iframe>
+      <iframe title="gni-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3100.980645726146!2d-74.81210274886242!3d38.99293807945567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c0a83c9e3ab831%3A0xa1a205900a8edc65!2sGoodnight%20Irene&#39;s%20Brew%20Pub!5e0!3m2!1sen!2sus!4v1622767411405!5m2!1sen!2sus" allowfullscreen="" loading="lazy" zoom="3"></iframe>
       </div>
     </div>
   )
