@@ -98,7 +98,7 @@ nav {
     justify-content: center;
     height: 10vw;
     padding: 30px 0;
-    font-size: 3vw;
+    font-size: 7vw;
     color: var(--white);
   }
   .nav-link:hover {

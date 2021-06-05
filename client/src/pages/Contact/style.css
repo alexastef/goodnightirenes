@@ -73,13 +73,13 @@ iframe {
 }
 
 @media (max-width: 850px) {
-  h2.contact--info-heading {
+  /* h2.contact--info-heading {
     font-size: large;
   }
 
   h4.contact--info-subheading {
     font-size: medium;
-  }
+  } */
 }
 
 @media (max-width: 480px) {
@@ -91,6 +91,13 @@ iframe {
   div.contact--map {
     width: 100%;
     padding: 0.7rem;
+  }
+    h2.contact--info-heading {
+    font-size: x-large;
+  }
+
+  h4.contact--info-subheading {
+    font-size: larger;
   }
   section.contact--info-inquiries {
     text-align: right;
