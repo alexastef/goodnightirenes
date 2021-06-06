@@ -2,8 +2,9 @@
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Home from './pages/Home';
+import Beer from './pages/Beer';
 import Contact from './pages/Contact';
-import Menu from './pages/Menu/index.js';
+// import Menu from './pages/Menu/index.js';
 // import Footer from './components/Footer';
 import Footer2 from './components/Footer2';
 
@@ -13,15 +14,10 @@ function App() {
       <Router>
         <Header />
         <main>
-          {/* <div className="content">
-            <div className="main"> */}
-              <Route exact path="/" component={Home} />
-              <Route exact path="/contact" component={Contact} />
-              <Route exact path="/menu" component={Menu} />
-            {/* </div>
-          </div> */}
+          <Route exact path="/" component={Home} />
+          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/beer" component={Beer} />
         </main>
-        {/* <Footer /> */}
         <Footer2 />
       </Router>
     </div>
