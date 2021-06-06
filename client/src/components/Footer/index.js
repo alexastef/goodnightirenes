@@ -17,13 +17,13 @@ const Footer = () => {
       <section className="footer-content--section" id="order-section">
           <h3>Order</h3>
           <div className="footer-order--order">
-            <span><i class="fas fa-phone-alt fa-xs"></i><a href="tel:+1-609-729-3861" className="order-phone">609.729.3861</a></span>
+            <span><i className="fas fa-phone-alt fa-xs"></i><a href="tel:+1-609-729-3861" className="order-phone">609.729.3861</a></span>
           </div>
         </section>
         <section className="footer-content--section" id="connect-section">
           <h3>Connect</h3>
           <div className="footer-content--connect">
-            <a href="#" className="social-link" target="_blank"><i class="fab fa-google"></i></a>
+            <a href="#" className="social-link" target="_blank"><i className="fab fa-google"></i></a>
             <a href="https://www.facebook.com/Goodnightirenes" className="social-link" target="_blank"><i class="fab fa-facebook-f"></i></a>
             <a href="https://www.instagram.com/goodnightirenes/" className="social-link" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
           </div>
