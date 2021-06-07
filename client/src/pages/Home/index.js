@@ -21,7 +21,7 @@ const Home = () => {
             <div className="intro-text text-right">
               <h1 className="intro-text--heading">Good Eats</h1>
               <p className="intro-text--body">We serve up specialty brick oven pizzas and classic favorites with a creative twist. Be sure to check out our daily specials!</p>
-              <a className="intro-text--link" href={MenuPDF} target="_blank">View Menu</a>
+              <a className="intro-text--link" href={MenuPDF} target="_blank" rel="noreferrer">View Menu</a>
             </div>
           </Fade>
         </section>

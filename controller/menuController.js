@@ -5,14 +5,12 @@ const Beer = db.Beer;
 module.exports =  {
   findAll: (req, res) => {
     Beer.findAll()
-      .then(data => res.send(data))
-      .catch(err => res.status(500).send({
-        message: err.message || "Some error occurred while retrieving the beer list"
-    }));
+      .then(data => res.json(data))
+      .catch(err => res.status(500).json(err));
   },
-  createOne: (req, res) => {
+  // createOne: (req, res) => {
     
-  }
+  // }
 };
 
 // add new beer
