@@ -4,7 +4,6 @@ USE `irenes_db`;
 
 CREATE TABLE beers (
   id int NOT NULL AUTO_INCREMENT,
-  tapped_date DATETIME,
   up_next BOOLEAN DEFAULT false,
   name varchar(60) NOT NULL,
   location varchar(60) NOT NULL,
@@ -14,4 +13,4 @@ CREATE TABLE beers (
   glass varchar(60) NOT NULL,
 
   PRIMARY KEY (id)
-)
+);

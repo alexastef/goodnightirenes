@@ -18,6 +18,6 @@ const db = {};
 db.Sequelize = Sequelize;
 db.sequelize = sequelize;
 
-db.Beer = require('./Beer')(sequelize, Sequelize);
+db.Beers = require('./Beer')(sequelize, Sequelize);
 
 module.exports = db;

@@ -1,16 +1,16 @@
-module.exports = function (sequelize, Sequelize) {
-  let Beer = sequelize.define("Beer", {
+module.exports = function (sequelize, DataTypes) {
+  const Beers = sequelize.define("Beers", {
     name: {
-      type: Sequelize.STRING,
+      type: DataTypes.STRING,
       allowNull: false,
       unique: true
     },
     location: {
-      type: Sequelize.STRING,
+      type: DataTypes.STRING,
       allowNull: false
     },
     abv: {
-      type: Sequelize.DECIMAL(10,2),
+      type: DataTypes.DECIMAL(10,2),
       allowNull: false,
       validation: {
         isDecimal: true,
@@ -18,7 +18,7 @@ module.exports = function (sequelize, Sequelize) {
       }
     },
     price: {
-      type: Sequelize.DECIMAL(10,2),
+      type: DataTypes.DECIMAL(10,2),
       allowNull: false,
       validation: {
         isDecimal: true,
@@ -26,19 +26,22 @@ module.exports = function (sequelize, Sequelize) {
       }
     },
     style: {
-      type: Sequelize.STRING,
+      type: DataTypes.STRING,
       allowNull: false
     },
     glass: {
-      type: Sequelize.STRING,
+      type: DataTypes.STRING,
       allowNull: false
     },
-    tapped_date: Sequelize.DATE,
     up_next: {
-      type: Sequelize.BOOLEAN,
+      type: DataTypes.BOOLEAN,
       default: false
     }
+  }, {
+    timestamps: true,
+    createdAt: false,
+    updatedAt: "tapped_date"
   });
 
-  return Beer;
+  return Beers;
 }

@@ -1,10 +1,11 @@
 const db = require('../models');
-const Beer = db.Beer;
+const Beers = db.Beers;
 
 // get all beers
 module.exports =  {
   findAll: (req, res) => {
-    Beer.findAll()
+    console.log("HITTING FINDALL CONTROLLER")
+     Beers.findAll()
       .then(data => res.json(data))
       .catch(err => res.status(500).json(err));
   },
