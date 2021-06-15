@@ -10,8 +10,12 @@ const Contact = () => {
         <section className="contact--info-hours">
           <h2 className="contact--info-heading">Hours</h2>
           <Fade right cascade>
-            <h4 className="contact--info-subheading">Monday - Thursday: 1pm - 3am</h4>
-            <h4 className="contact--info-subheading">Friday - Sunday: 11am - 3am</h4>
+            <h3 className="contact--info-subheading">MONDAY - THURSDAY</h3>
+            <h4 className="contact--info-subheading">Inside: 1pm - 3am</h4>
+            <h4 className="contact--info-subheading">Outside: 5pm - 3am</h4>
+            <h3 className="contact--info-subheading">FRIDAY - SUNDAY</h3>
+            <h4 className="contact--info-subheading">Inside: 12pm - 3am</h4>
+            <h4 className="contact--info-subheading">Outside: 1pm - 3am</h4>
           </Fade>
         </section>
         <hr />
