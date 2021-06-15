@@ -19,10 +19,12 @@ h2.contact--info-heading {
   margin-bottom: 1rem;
   margin-top: 1.5rem;
 }
-
+h3.contact--info-subheading {
+  margin-bottom: 0;
+}
 h4.contact--info-subheading {
   font-size: larger;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
   margin-top: 0;
   font-weight: 500;
 }

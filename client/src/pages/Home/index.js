@@ -40,7 +40,7 @@ const Home = () => {
           <Fade right>
             <div className="intro-text text-right">
               <h1 className="intro-text--heading">Good Times</h1>
-              <p className="intro-text--body">Stop by for Happy Hour every day from 4-7, live music Thursday through Sunday. Dogs and kids welcome!</p>
+              <p className="intro-text--body">Stop by for Happy Hour from open 'til 7, Monday through Friday, and live music every weekend. Dogs and kids welcome!</p>
               <a className="intro-text--link" href="https://www.instagram.com/explore/tags/gniweekends/">Learn More</a>
             </div>
           </Fade>
