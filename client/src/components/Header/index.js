@@ -36,13 +36,7 @@ const Header = () => {
         >
           BEER
         </Link>
-        <Link 
-        to="about"
-        className="nav-link"
-        onClick={closeMobileMenu}
-        >
-          ABOUT
-        </Link>
+  
         <Link 
         to="contact"
         className="nav-link"

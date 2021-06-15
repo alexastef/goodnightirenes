@@ -32,7 +32,7 @@ nav {
   width: 68%;
   margin: auto;
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(3, auto);
   z-index: 1000;
 }
 
