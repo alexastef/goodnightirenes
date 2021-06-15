@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "description": "restaurant-site",
   "main": "server.js",
+  "engines": {
+    "node": "12.16.1",
+    "npm": "6.13.4"
+  },
   "dependencies": {
     "axios": "^0.21.1",
     "body-parser": "^1.19.0",
@@ -24,12 +28,10 @@
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
     "start:prod": "node server.js",
-    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "start:dev": "nodemon server.js",
     "client": "cd client && npm run start",
     "build": "cd client && npm run build",
-    "heroku-postbuild": "npm run build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "heroku-postbuild": "npm run build"
   },
   "repository": {
     "type": "git",
