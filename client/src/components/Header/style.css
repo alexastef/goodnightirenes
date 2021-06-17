@@ -80,13 +80,13 @@ nav {
     display: flex;
     position: absolute;
     width: 100%;
-    height: 270px;
+    height: auto;
     top: 93px;
     left: -500px;
     opacity: 0;
     transition: all 0.75s ease;
     flex-direction: column;
-    grid-template-rows: repeat(4, auto);
+    grid-template-rows: repeat(3, auto);
   }
   .nav-active {
     background: var(--gold);

@@ -19,7 +19,7 @@ const Beer = () => {
   return (
     <div className="table-container">
       <h2>Tapped Now</h2>
-      <Table className="beer-table">
+      <Table className="beer-table table">
         <TableHead />
         <tbody>
           {current.map(beer => (
