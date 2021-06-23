@@ -3,6 +3,7 @@ import Fade from 'react-reveal';
 import Bounce from 'react-reveal';
 import MenuPDF from '../MenuPDF/menu.pdf';
 import './style.css';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -30,7 +31,7 @@ const Home = () => {
             <div className="intro-text text-left">
               <h1 className="intro-text--heading">Good Drinks</h1>
               <p className="intro-text--body">We have the largest selection of craft beer you'll find on the island, with 46 beers on tap. Not a beer drinker? We also serve craft cocktails and wine</p>
-              <a className="intro-text--link" href="/beer">View Drinks</a>
+              <Link className="intro-text--link" to="beer">View Drinks</Link>
             </div>
           </Fade>
           <div className="intro-image image-right" id="intro-image--good-drinks"></div>
@@ -41,7 +42,7 @@ const Home = () => {
             <div className="intro-text text-right">
               <h1 className="intro-text--heading">Good Times</h1>
               <p className="intro-text--body">Stop by for Happy Hour from open 'til 7, Monday through Friday, and live music every weekend. Dogs and kids welcome!</p>
-              <a className="intro-text--link" href="https://www.instagram.com/explore/tags/gniweekends/">Learn More</a>
+              <a className="intro-text--link" href="https://www.instagram.com/goodnightirenes/">Learn More</a>
             </div>
           </Fade>
         </section>
