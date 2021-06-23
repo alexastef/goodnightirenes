@@ -1,5 +1,5 @@
 div.hero-image {
-  background-image: url("../../images/kimiya-oveisi2-tiny.jpg");
+  background-image: url("../../images/klara-kulikova.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -119,6 +119,9 @@ div.intro-text.text-left {
 }
 
 @media (max-width: 600px) {
+  div.hero-image {
+    height: 65vh;
+  }
   div.intro-headline {
     max-width: 90%;
     font-size: 7vw;
